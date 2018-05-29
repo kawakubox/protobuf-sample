@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message Horse {
+  string name = 1;
+  string birthday = 2;
+  string sex = 3;
+  string sire = 4;
+  string mare = 5;
+}
